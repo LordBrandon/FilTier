@@ -1,0 +1,112 @@
+
+html{
+	background-color: pink
+}
+body{
+  font-family:cursive;
+  font-size: 22px;
+}
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cbffc0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #e67f90;
+}
+#acc{
+float:right;
+}
+
+.taskbar{
+  background-image: url("imgs/classroom.jpeg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.btn{
+  background-color: #cbffc0;
+  font-size: 16px;
+  font-family:cursive;
+}
+.content{
+float: center;
+}
+
+.imgContent{
+	width:30%;
+	height:inherit;
+	border-right: solid 2px black;
+	border-left: solid 2px black;
+	display: inline-block;
+	background-color:rgba(255,255,255,1.00);
+}
+#naDiv{
+	background-color: #e67f90;
+}
+.btn{
+			border: 1px solid #000000;
+			background-color: #e67f90;
+			padding: 10px 20px;
+			font-size: 20px;
+			font-family:"monsterrat";
+			cursor: pointer;
+			margin: 10px;
+			transition: 0.8s;
+			position: relative;
+			overflow: hidden;
+		}
+
+.btn1,.btn2, .btn3{
+			color: black;
+		}
+
+.btn1:hover, .btn2:hover,.btn3:hover{
+			color: #FFFFFF;
+		}
+
+.btn :before{
+			content: "";
+			position: absolute;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #3498DB;
+		}
+
+.bfont{
+	font-size: 30px;
+	color:chocolate;
+}
+
+.bfont a{
+	text-decoration: none;
+	color:chocolate;
+}
+#ninjaP{
+	font-size: 20px;
+	color: whitesmoke;
+}
+.content{
+font-size:30px; 
+}
