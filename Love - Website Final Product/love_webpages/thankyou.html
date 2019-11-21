@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Love ~ Donate</title>
+	<link href="../pr1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="taskbar">
+<ul>
+  <li><a href="research_page.html">Research</a></li>
+  <li><a href="aboutus_page.html">About Us</a></li>
+   <li style=float:right><a href="donation_page.html">Donate</a></li>
+  </ul>
+  <a href="../"><img id="logo" src="../imgs/Lugu.gif"></a>
+</div>
+	<center>
+<div id="donationContent">
+  <h1 id="confirmation">Help Students' Education By Donating Today!!!</h1>
+<form name="forum" style=padding-top:20px>
+  Please input the foollowing information:<br><br>
+	Name: <input class="textbox" type="text" name="name"> <br> <br>
+	Email Address: <input class="textbox" type="text" name="email"> <br> <br>
+	Phone Number: <input class="textbox" type="text" name="phone"> <br> <br>
+<br> <br>
+Select an amount to donate:<br><br>
+<input type="radio" name="amount" value="10$">10$<br>
+<input type="radio" name="amount" value="100$">100$<br>
+<input type="radio" name="amount" value="1000$">1000$<br>
+<br> <br>
+Please enter your credit card information to pay with:<br><br>
+  Card Number: <input class="textbox" type="text" name="cardNum"> <br> <br>
+  Expiration Date: <input class="textbox" type="text" name="expirDate"> <br> <br>
+  CVV Number: <input class="textbox" type="text" name="cvv"> <br> <br>
+	<input class="button" type="button" value="Confirm" onclick="confirmInfo()" style=width:100px>
+	<!-- 
+	Document Values for the form.
+	document.form.name.value
+	document.form.email.value
+	document.form.phone.value
+	  -->
+</form>
+  </div>
+	</center>		
+<script type="text/javascript" src="../pr1.js"></script>
+</body>
+</html>
